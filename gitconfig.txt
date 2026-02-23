@@ -3,3 +3,11 @@ git config --global user.email pedrodolopes22@gmail.com
 
 -- Criar um projeto React Native Expo
 npx create-expo-app@latest calculadora --template blank 
+
+1-QUANDO CHEGAR NA AULA FAÇA SEMPRE:
+cd calculadora
+npm i
+
+
+npx expo start
+npx expo start --android
