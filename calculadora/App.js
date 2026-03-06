@@ -68,9 +68,22 @@ export default function App() {
             <Text style={styles.functionText}>3</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.operatorButton}>
-            <Text style={styles.operatorButton}>X</Text>
+            <Text style={styles.operatorButton}>+</Text>
           </TouchableOpacity>
         </View>
+
+        <View style={styles.row}>
+          <TouchableOpacity style={[styles.buttonNumber, styles.doubleWidthButton]}>
+            <Text style={styles.buttonText}>0</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.buttonNumber}>
+            <Text style={styles.buttonText}>.</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.operatorButton}>
+            <Text style={styles.operatorText}>=</Text>
+          </TouchableOpacity>
+        </View>
+        
     </View>
   );
 }
